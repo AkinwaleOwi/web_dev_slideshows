@@ -98,27 +98,32 @@ img {vertical-align: middle;
   .prev, .next,.text {font-size: 11px}
 }
 </style>
+    
 </head>
+
+    
 <body>
+
+<h2><Center> 5 picture never ending slideshow, changes on button click </Center> </h2>
 
 <div class="slideshow-container">
 
 <div class="mySlides fade">
   <div class="numbertext">1 / 3</div>
   <img src="pic_0.png" style="width:100%">
-  <div class="text">Caption Text</div>
+  <div class="text">Pic #1 </div>
 </div>
 
 <div class="mySlides fade">
   <div class="numbertext">2 / 3</div>
   <img src="pic_1.png" style="width:100%">
-  <div class="text">Caption Two</div>
+  <div class="text">Pic #2 </div>
 </div>
 
 <div class="mySlides fade">
   <div class="numbertext">3 / 3</div>
   <img src="pic_2.png" style="width:100%">
-  <div class="text">Caption Three</div>
+  <div class="text">Pic #3 </div>
 </div>
 
 <a class="prev" onclick="plusSlides(-1)">❮</a>
@@ -163,4 +168,5 @@ function showSlides(n) {
 </script>
 
 </body>
+    
 </html> 
